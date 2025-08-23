@@ -15,7 +15,7 @@ export default function ProjectDetails(Props) {
   const projects = useProjects();
   console.log(projects);
 
-  let project = projects.find((Project) => {
+  const project = projects.find((Project) => {
     return Project.name.toLowerCase() === name.toLowerCase();
   });
   console.log(project);
