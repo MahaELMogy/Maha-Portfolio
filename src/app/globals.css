@@ -1,26 +1,42 @@
+/* globals.scss أو main.scss */
 @import "tailwindcss";
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* // #7a2d31, #bf9476, #845f56, #302020, #f1a88d, #e5d6c6
+// 🎨 🎨 Light Mode Palette
+$color-primary: #7a2d31; // نبيتي داكن - للأزرار أو العناوين
+$background-color: #e5d6c6; // سكري فاتح - للخلفية الأساسية
+$surface-color: #ffffff; // أبيض - لبطاقات أو عناصر داخلية
+$text-primary: #302020; // رمادي غامق مائل للبني - للنصوص الرئيسية
+$text-secondary: #bf9476; // رمادي دافي - لنصوص ثانوية
+$accent-color: #845f56; // وردي غامق دافئ - لون مميز للأزرار أو الروابط */
+
+/* // 🧱 Custom Styles */
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  background-color: #ffffff;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+h2 {
+  @apply text-[56px] font-bold;
+  color: #302020;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  span {
+    color: #7a2d31;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+h3 {
+  @apply font-semibold text-2xl;
+  color: #302020;
+
+  &:hover {
+    color: #7a2d31;
+  }
+}
+
+.btn {
+  @apply bg-[#7a2d31] text-white px-6 py-2 rounded-full hover:bg-[#5a1f23] transition-colors duration-300;
 }
