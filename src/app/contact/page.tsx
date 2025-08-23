@@ -17,7 +17,7 @@ export default function Contact() {
 
           <p className="max-w-lg my-5 text-[#845f56] leading-relaxed">
             Looking to partner or work together? Reach out through the form and
-            I'll get back to you in the next 48 hours.
+            I&apos;ll get back to you in the next 48 hours.
           </p>
 
           {/* Contact Info */}
