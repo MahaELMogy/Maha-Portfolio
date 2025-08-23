@@ -1,21 +1,7 @@
 // src/context/ProjectsContext.tsx
 "use client";
-
+import { ProjectType } from "@/app/types/project";
 import React, { createContext, useContext } from "react";
-
-export type ProjectType = {
-  id: number;
-  name: string;
-  title: string;
-  description: string;
-  image: string;
-  category: string;
-  status: string;
-  technologies: string[];
-  duration: string;
-  github: string;
-  repositories: string;
-};
 
 const projectsData: ProjectType[] = [
   {
