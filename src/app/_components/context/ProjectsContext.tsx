@@ -13,6 +13,8 @@ export type ProjectType = {
   status: string;
   technologies: string[];
   duration: string;
+  github: string;
+  repositories: string;
 };
 
 const projectsData: ProjectType[] = [
