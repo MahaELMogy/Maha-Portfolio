@@ -4,10 +4,10 @@ function SkillsHome() {
   return (
     <>
       <section className="container mx-auto px-4 py-16">
-        <h2 className="h2">
+        <h2 className="">
           Skills<span>.</span>
         </h2>
-        <div className="flex flex-wrap  text-[#845f56]">
+        <div className="flex flex-wrap gap-10 md:gap-0 mt-7 text-[#845f56]">
           {/* Languages */}
           <div className="w-full sm:w-1/2 lg:w-1/4">
             <div className="inner">

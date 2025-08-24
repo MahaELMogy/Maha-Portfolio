@@ -35,10 +35,10 @@ function ProjectsHome() {
             <div className="flex-1 flex flex-col">
               {/* Title + Category */}
               <div className="flex items-center justify-between mb-3">
-                <h4 className="text-lg font-bold text-[#302020] hover:text-[#7a2d31] transition">
+                <h4 className="text-lg line-clamp-1 font-bold text-[#302020] hover:text-[#7a2d31] transition">
                   {project.title}
                 </h4>
-                <span className="text-xs bg-[#e5d6c6] text-[#302020] px-3 py-1 rounded-full">
+                <span className="text-xs line-clamp-1 bg-[#e5d6c6] text-[#302020] px-3 py-1 rounded-full">
                   {project.category}
                 </span>
               </div>

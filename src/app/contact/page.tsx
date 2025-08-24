@@ -11,13 +11,17 @@ export default function Contact() {
       <div className="flex flex-col-reverse items-center justify-between gap-10 lg:flex-row">
         {/* Left Section */}
         <div className="w-full lg:w-2/3">
-          <h2 className="h2 text-4xl font-bold text-[#302020]">
+          <h2 className=" text-[#302020]">
             Get In Touch <span className="text-[#7a2d31]">.</span>
           </h2>
 
           <p className="max-w-lg my-5 text-[#845f56] leading-relaxed">
-            Looking to partner or work together? Reach out through the form and
-            I&apos;ll get back to you in the next 48 hours.
+            Hi, I&apos;m excited to share my Frontend Development portfolio with
+            you. I&apos;ve recently completed a diploma where I gained solid
+            skills in React.js, Next.js, JavaScript, HTML, CSS, Tailwind CSS,
+            and Bootstrap. I&apos;m eager to contribute to your team and build
+            awesome, user-friendly projects together. Please feel free to get in
+            touch if you&apos;d like to discuss potential opportunities
           </p>
 
           {/* Contact Info */}

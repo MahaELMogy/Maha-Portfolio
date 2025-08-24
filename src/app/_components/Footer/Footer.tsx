@@ -186,7 +186,7 @@ function Footer() {
           <div className="text-[#845f56] text-sm mb-4 md:mb-0">
             <p>&copy; 2024 Maha Mounir. All rights reserved.</p>
           </div>
-          <div className="flex items-center space-x-4 text-[#845f56] text-sm">
+          <div className="flex flex-col md:flex-row items-center space-x-4 text-[#845f56] text-sm">
             <a
               href="#"
               className="hover:text-[#7a2d31] transition-colors duration-300"

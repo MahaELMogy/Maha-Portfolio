@@ -3,14 +3,10 @@ import React from "react";
 import { useProjects } from "@/app/_components/context/ProjectsContext";
 import Image from "next/image";
 import Link from "next/link";
-import { ProjectType } from "@/app/types/project";
-
-type ProjectPageProps = {
-  params: Promise<{ name: string }>;
-};
+import { ProjectType, ProjectPageProps } from "@/app/types/project";
 
 export default function ProjectDetails({ params }: ProjectPageProps) {
-  const { name } = React.use(params); // تفكيك الـ Promise
+  const { name } = React.use(params);
 
   const projects = useProjects();
   const project: ProjectType | undefined = projects.find(
@@ -66,9 +62,9 @@ export default function ProjectDetails({ params }: ProjectPageProps) {
           </div>
 
           {/* Buttons */}
-          <div className="flex gap-4 mt-6">
+          <div className="flex flex-col md:flex-row gap-4 mt-6 text-center">
             <Link href="/">
-              <button className="bg-[#e5d6c6] text-[#302020] px-4 py-2 rounded-md hover:bg-[#d8c0ae] transition cursor-pointer">
+              <button className="bg-[#e5d6c6] w-full text-[#302020] px-4 py-2 rounded-md hover:bg-[#d8c0ae] transition cursor-pointer">
                 ← Back to Home
               </button>
             </Link>

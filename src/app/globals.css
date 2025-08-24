@@ -20,8 +20,9 @@ $accent-color: #845f56; // وردي غامق دافئ - لون مميز للأز
 }
 
 h2 {
-  @apply text-[56px] font-bold;
+  @apply font-bold;
   color: #302020;
+  font-size: 3rem;
 
   span {
     color: #7a2d31;
