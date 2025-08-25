@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function Contact() {
   return (
-    <section className="home container mx-auto px-4 py-16">
+    <section className="home container mx-auto px-4 pt-15">
       <div className="flex flex-col-reverse items-center justify-between gap-10 lg:flex-row">
         {/* Left Section */}
         <div className="w-full lg:w-2/3">

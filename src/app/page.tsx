@@ -8,7 +8,7 @@ import Education from "./_components/Education/Education";
 export default function Home() {
   return (
     <>
-      <div className="flex flex-col gap-15">
+      <div className="flex flex-col gap-15 pt-15">
         <Hero />
         <ProjectsHome />
         <Education />

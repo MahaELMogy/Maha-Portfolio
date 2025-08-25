@@ -44,7 +44,7 @@ export default function Hero() {
                 href="https://www.linkedin.com/in/maha-elmogy-911b03216"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#7a2d31] text-white p-1 rounded-full hover:bg-[#5a1f23] transition-colors duration-300"
+                className="text-[#302020] bg-[#e5d6c6] p-1 rounded-full hover:bg-[#d8c0ae] transition-colors duration-300"
               >
                 <div className="text-2xl">
                   <CiLinkedin />
@@ -54,7 +54,7 @@ export default function Hero() {
                 href="https://github.com/MahaELMogy?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#7a2d31] text-white p-1 rounded-full hover:bg-[#5a1f23] transition-colors duration-300"
+                className="text-[#302020] bg-[#e5d6c6] p-1 rounded-full hover:bg-[#d8c0ae] transition-colors duration-300"
               >
                 <div className="text-2xl">
                   <SiGithub />
