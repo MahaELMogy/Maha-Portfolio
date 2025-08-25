@@ -3,7 +3,7 @@ import React from "react";
 function SkillsHome() {
   return (
     <>
-      <section className="container mx-auto px-4 py-16">
+      <section className="container mx-auto px-4 ">
         <h2 className="">
           Skills<span>.</span>
         </h2>

@@ -5,7 +5,7 @@ import { SiGithub } from "react-icons/si";
 
 export default function Hero() {
   return (
-    <section className="home container mx-auto px-4 py-16">
+    <section className="home container mx-auto px-4 ">
       <div className="flex flex-col-reverse items-center justify-between gap-10 lg:flex-row">
         <div className="w-full xl:w-2/3">
           <p className="font-bold text-2xl sm:text-3xl flex items-center">

@@ -8,12 +8,14 @@ import Education from "./_components/Education/Education";
 export default function Home() {
   return (
     <>
-      <Hero />
-      <ProjectsHome />
-      <Education />
-      <ExperienceHome />
-      <SkillsHome />
-      <MyStoryHome />
+      <div className="flex flex-col gap-15">
+        <Hero />
+        <ProjectsHome />
+        <Education />
+        <ExperienceHome />
+        <SkillsHome />
+        <MyStoryHome />
+      </div>
     </>
   );
 }

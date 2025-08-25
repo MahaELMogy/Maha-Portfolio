@@ -43,7 +43,7 @@ function ExperienceHome() {
   const active = MyExperience[ActiveIndex];
 
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section className="container mx-auto px-4 ">
       <h2 className="h2">
         Experience<span className="text-purple-600">.</span>
       </h2>

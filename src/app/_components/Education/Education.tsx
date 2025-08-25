@@ -30,7 +30,7 @@ function EducationHome() {
   ];
 
   return (
-    <section className="container mx-auto px-4 py-16">
+    <section className="container mx-auto px-4 ">
       <h2 className="h2">
         Education<span className="text-purple-600">.</span>
       </h2>
@@ -53,13 +53,13 @@ function EducationHome() {
               ))}
             </ul>
             {edu.certificateImg && (
-              <div className="mt-4">
+              <div className="mt-4 overflow-hidden ">
                 <Image
                   src={edu.certificateImg}
                   alt={`${edu.degree} Certificate`}
-                  width={500}
-                  height={350}
-                  className="rounded-lg shadow-md border border-gray-200 max-w-md"
+                  width={400}
+                  height={250}
+                  className="rounded-lg shadow-md border border-gray-200 max-full"
                 />
               </div>
             )}
