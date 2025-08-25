@@ -15,3 +15,13 @@ export type ProjectType = {
 export type ProjectPageProps = {
   params: Promise<{ name: string }>;
 };
+// ------------------------------------------------
+
+export type MyEducation = {
+  id: number;
+  degree: string;
+  institution: string;
+  period: string;
+  description: string[];
+  certificateImg?: string;
+};
