@@ -27,8 +27,8 @@ function SkillsHome() {
             <div className="inner">
               <h3 className="h3 pb-3">Frameworks</h3>
               <ul>
-                <li className="pb-1">ReactJS</li>
-                <li className="pb-1">NextJS</li>
+                <li className="pb-1">React.js</li>
+                <li className="pb-1">Next.js</li>
               </ul>
             </div>
           </div>

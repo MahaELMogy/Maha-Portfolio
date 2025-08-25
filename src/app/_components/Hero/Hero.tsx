@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { CiLinkedin } from "react-icons/ci";
+import { SiGithub } from "react-icons/si";
 
 export default function Hero() {
   return (
@@ -9,13 +11,14 @@ export default function Hero() {
           <p className="font-bold text-2xl sm:text-3xl flex items-center">
             Hey, I&apos;m Maha 🌟
           </p>
-          <h1 className="text-7xl sm:text-8xl font-bold leading-tight max-w-3xs text-[#302020]">
-            <span className="text-[#7a2d31]">Front</span>end Developer
+          <h1 className="text-7xl sm:text-8xl font-bold leading-tight max-w-lg text-[#302020]">
+            <span className="text-[#7a2d31] me-10">Front</span>end Developer
           </h1>
-          <p className="max-w-lg my-5 sm:text-xl text-[#bf9476]">
-            I&apos;m a frontend developer from Egypt, focused on building
-            beautiful and easy-to-use websites your users will love.
+          <p className=" my-5 sm:text-xl text-[#bf9476]">
+            Frontend Developer | React & Next.js | Building fast, accessible UIs
           </p>
+
+          {/* CV Buttons */}
           <div className="flex gap-4">
             <a
               href="/Maha_Monir_Ali_CV.pdf"
@@ -25,7 +28,6 @@ export default function Hero() {
             >
               View CV
             </a>
-
             <a
               href="/Maha_Monir_Ali_CV.pdf"
               download
@@ -34,7 +36,35 @@ export default function Hero() {
               Download CV
             </a>
           </div>
+
+          {/* Social Icons */}
+          <div className=" mt-5">
+            <div className="flex gap-4">
+              <a
+                href="https://www.linkedin.com/in/maha-elmogy-911b03216"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#7a2d31] text-white p-1 rounded-full hover:bg-[#5a1f23] transition-colors duration-300"
+              >
+                <div className="text-2xl">
+                  <CiLinkedin />
+                </div>
+              </a>
+              <a
+                href="https://github.com/MahaELMogy?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#7a2d31] text-white p-1 rounded-full hover:bg-[#5a1f23] transition-colors duration-300"
+              >
+                <div className="text-2xl">
+                  <SiGithub />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
+
+        {/* Profile Image */}
         <div className="w-full xl:w-1/3 flex justify-center">
           <div className="w-[350px] h-[350px] rounded-full border-2 border-[#7a2d31] flex items-center justify-center">
             <div className="w-[320px] h-[320px] rounded-full overflow-hidden">
