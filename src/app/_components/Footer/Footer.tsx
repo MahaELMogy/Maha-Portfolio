@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { CiLinkedin } from "react-icons/ci";
 import { SiGithub } from "react-icons/si";
+import { SiWhatsapp } from "react-icons/si";
 
 function Footer() {
   return (
@@ -175,6 +176,16 @@ function Footer() {
               >
                 <div className="text-2xl">
                   <SiGithub />
+                </div>
+              </a>
+              <a
+                href="https://wa.me/201146276754"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-gray-50 hover:bg-[#7a2d31] text-[#845f56] hover:text-white p-3 rounded-lg transition-all duration-300 shadow-sm border border-gray-200"
+              >
+                <div className="text-2xl">
+                  <SiWhatsapp />
                 </div>
               </a>
             </div>
